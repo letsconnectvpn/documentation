@@ -12,4 +12,4 @@ Let’s Connect! is being developed by SURFnet (the Dutch NREN) in collaboration
 
 Since Let’s Connect! actually started out as eduVPN (our open source VPN service for the (higher) education and research in The Netherlands) the two projects are still quite intertwined. After finalising eduVPN we will make dedicated Let’s Connect! packages and applications and fill this GitHub repository. Of course you can already test eduVPN for yourself, since it will be very much the same as the final Let’s Connect! releases.
 
-For detailed information and the source code, visit our [GitHub](https://github.com/eduVPN/documentatio).
+For detailed information and the source code, visit our [GitHub](https://github.com/eduVPN/documentation).
