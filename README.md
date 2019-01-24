@@ -13,3 +13,11 @@ Let’s Connect! is being developed by SURFnet (the Dutch NREN) in collaboration
 Since Let’s Connect! actually started out as eduVPN (our open source VPN service for the (higher) education and research in The Netherlands) the two projects are still quite intertwined. After finalising eduVPN we will make dedicated Let’s Connect! packages and applications and fill this GitHub repository. Of course you can already test eduVPN for yourself, since it will be very much the same as the final Let’s Connect! releases.
 
 For detailed information and the source code, visit our [GitHub](https://github.com/eduVPN/documentation).
+
+
+# Security Contact
+
+If you find a security problem in the Let’s Connect! code, the deployed service(s) and want to
+report it responsibly, contact [fkooman@tuxed.net](mailto:fkooman@tuxed.net). 
+You can use PGP. My key is `0x9C5EDD645A571EB2`. The full fingerprint is 
+`6237 BAF1 418A 907D AA98  EAA7 9C5E DD64 5A57 1EB2`.
