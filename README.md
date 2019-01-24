@@ -12,6 +12,37 @@ Let’s Connect! is being developed by SURFnet (the Dutch NREN) in collaboration
 
 Since Let’s Connect! actually started out as eduVPN (our open source VPN service for the (higher) education and research in The Netherlands) the two projects are still quite intertwined. After finalising eduVPN we will make dedicated Let’s Connect! packages and applications and fill this GitHub repository. Of course you can already test eduVPN for yourself, since it will be very much the same as the final Let’s Connect! releases.
 
+
+Below are the basic steps needed to install eduVPN on your hardware or VM.
+
+### Requirements ###
+* Practically any hardware (or VM) will do
+* Clean Debian 9 Stretch, CentOS 7 or Fedora 26+
+* SELinux has to be enabled on CentOS
+* A working Internet connection
+* Open ports tcp/80, tcp/443, udp/1194 and tcp/1194
+
+### How to install ### 
+Download the documentation repository on the host where you want to deploy:
+
+    $ curl -L -O https://github.com/eduvpn/documentation/archive/master.tar.gz
+Decompress the archive:
+
+    $ tar -xzf master.tar.gz
+Go to the document-master directory ($ cd documentation-master) and choose one of the following deploy scripts:
+
+    deploy_debian.sh on Debian 9
+    deploy_centos.sh on CentOS 7
+    deploy_fedora.sh on Fedora 26+
+Then run the script as root:
+
+    $ sudo -s
+
+    # ./deploy_distro.sh
+
+And answer the questions in the script with something that makes sense for your deployment. After running the deploy script, it is time to configure Let’s Connect!. More on this is documented in the deploy documentation on Debian, CentOS and Fedora.
+
+
 For detailed information and the source code, visit our [GitHub](https://github.com/eduVPN/documentation).
 
 
